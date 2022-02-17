@@ -16,15 +16,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    ccity.cpp \
+    ccontinent.cpp \
+    ccountry.cpp \
     cipaddress.cpp \
     ciprange.cpp \
+    ciprangeitemdelegate.cpp \
+    cregion.cpp \
     main.cpp \
     cmainwindow.cpp
 
 HEADERS += \
+    ccity.h \
+    ccontinent.h \
+    ccountry.h \
     cipaddress.h \
     ciprange.h \
-    cmainwindow.h
+    ciprangeitemdelegate.h \
+    cmainwindow.h \
+    cregion.h
 
 FORMS += \
     cmainwindow.ui

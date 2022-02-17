@@ -1,7 +1,6 @@
 #include "ciprange.h"
 
 #include <QFile>
-#include <QDomDocument>
 #include <algorithm>
 
 
